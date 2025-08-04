@@ -1,19 +1,8 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "public/**/*",
-      "use": "@vercel/static"
-    }
-  ],
   "routes": [
-    {
-      "src": "/",
-      "dest": "/public/test.html"
-    },
-    {
-      "src": "/(.*)",
-      "dest": "/public/$1"
-    }
+    { "handle": "filesystem" },
+    { "src": "/", "dest": "/test.html" },
+    { "src": "/(.*)", "dest": "/$1" }
   ]
 }
