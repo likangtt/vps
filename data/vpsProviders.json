@@ -1,0 +1,898 @@
+[
+  {
+    "id": 1,
+    "name": "Vultr",
+    "logo": "/images/providers/vultr.png",
+    "description": "Vultr是一家全球性的云计算公司，提供高性能SSD云服务器。它在全球17个数据中心提供服务，支持按小时计费，是开发者和小型企业的理想选择。",
+    "features": [
+      "全球17个数据中心",
+      "高性能SSD存储",
+      "按小时计费",
+      "简单直观的控制面板",
+      "100%高可用性网络",
+      "DDoS保护"
+    ],
+    "pricing": {
+      "startingPrice": 2.5,
+      "currency": "USD",
+      "billingCycle": "monthly",
+      "plans": [
+        {
+          "name": "Cloud Compute",
+          "cpu": 1,
+          "ram": 1,
+          "storage": 25,
+          "bandwidth": 1000,
+          "price": 5
+        },
+        {
+          "name": "High Frequency",
+          "cpu": 1,
+          "ram": 2,
+          "storage": 55,
+          "bandwidth": 2000,
+          "price": 12
+        },
+        {
+          "name": "Optimized Cloud Compute",
+          "cpu": 2,
+          "ram": 4,
+          "storage": 80,
+          "bandwidth": 3000,
+          "price": 24
+        }
+      ]
+    },
+    "datacenters": [
+      "阿姆斯特丹",
+      "亚特兰大",
+      "班加罗尔",
+      "东京",
+      "法兰克福",
+      "伦敦",
+      "洛杉矶",
+      "迈阿密",
+      "墨尔本",
+      "墨西哥城",
+      "纽约",
+      "巴黎",
+      "圣何塞",
+      "新加坡",
+      "悉尼",
+      "首尔",
+      "西雅图"
+    ],
+    "pros": [
+      "全球数据中心覆盖广",
+      "简单易用的控制面板",
+      "灵活的按小时计费",
+      "快速部署（60秒内）",
+      "性价比高"
+    ],
+    "cons": [
+      "客户支持响应时间有时较慢",
+      "高级功能相对较少",
+      "备份功能需额外付费",
+      "中国大陆访问速度不稳定"
+    ],
+    "ratings": {
+      "overall": 4.5,
+      "performance": 4.6,
+      "reliability": 4.5,
+      "support": 4.0,
+      "pricing": 4.7,
+      "easeOfUse": 4.8
+    },
+    "website": "https://www.vultr.com",
+    "founded": 2014,
+    "headquarters": "美国，新泽西州",
+    "paymentMethods": ["信用卡", "PayPal", "支付宝", "比特币"],
+    "operatingSystems": ["CentOS", "Ubuntu", "Debian", "Windows", "自定义ISO"],
+    "specialOffers": "新用户注册送100美元赠金",
+    "targetAudience": ["开发者", "小型企业", "中型企业", "个人项目"],
+    "popularUses": ["Web托管", "游戏服务器", "开发环境", "API服务"]
+  },
+  {
+    "id": 2,
+    "name": "DigitalOcean",
+    "logo": "/images/providers/digitalocean.png",
+    "description": "DigitalOcean是一家美国云基础设施提供商，专注于帮助开发者轻松部署和扩展应用程序。它以简单性和用户友好的界面而闻名，提供了丰富的教程和社区支持。",
+    "features": [
+      "简单直观的用户界面",
+      "团队协作功能",
+      "丰富的API",
+      "一键式应用部署",
+      "全球数据中心",
+      "负载均衡器"
+    ],
+    "pricing": {
+      "startingPrice": 5,
+      "currency": "USD",
+      "billingCycle": "monthly",
+      "plans": [
+        {
+          "name": "Basic",
+          "cpu": 1,
+          "ram": 1,
+          "storage": 25,
+          "bandwidth": 1000,
+          "price": 5
+        },
+        {
+          "name": "Regular",
+          "cpu": 2,
+          "ram": 2,
+          "storage": 50,
+          "bandwidth": 2000,
+          "price": 15
+        },
+        {
+          "name": "Premium",
+          "cpu": 4,
+          "ram": 8,
+          "storage": 160,
+          "bandwidth": 5000,
+          "price": 40
+        }
+      ]
+    },
+    "datacenters": [
+      "阿姆斯特丹",
+      "班加罗尔",
+      "法兰克福",
+      "伦敦",
+      "纽约",
+      "旧金山",
+      "新加坡",
+      "多伦多"
+    ],
+    "pros": [
+      "用户界面简洁直观",
+      "丰富的文档和教程",
+      "活跃的社区支持",
+      "稳定的性能",
+      "团队协作功能"
+    ],
+    "cons": [
+      "价格不是最便宜的",
+      "数据中心选择相对较少",
+      "高级功能较少",
+      "中国大陆访问不稳定"
+    ],
+    "ratings": {
+      "overall": 4.6,
+      "performance": 4.5,
+      "reliability": 4.7,
+      "support": 4.6,
+      "pricing": 4.3,
+      "easeOfUse": 4.9
+    },
+    "website": "https://www.digitalocean.com",
+    "founded": 2011,
+    "headquarters": "美国，纽约",
+    "paymentMethods": ["信用卡", "PayPal"],
+    "operatingSystems": ["Ubuntu", "CentOS", "Debian", "Fedora", "FreeBSD"],
+    "specialOffers": "新用户注册送200美元赠金",
+    "targetAudience": ["开发者", "初创公司", "小型企业", "教育机构"],
+    "popularUses": ["Web应用", "开发测试", "数据库托管", "Docker容器"]
+  },
+  {
+    "id": 3,
+    "name": "Linode",
+    "logo": "/images/providers/linode.png",
+    "description": "Linode是一家老牌云主机提供商，成立于2003年，专注于提供高性能的Linux虚拟服务器。它以可靠的基础设施和透明的定价而闻名，深受开发者和系统管理员的喜爱。",
+    "features": [
+      "高性能SSD存储",
+      "专用CPU资源",
+      "40Gbps网络",
+      "全球11个数据中心",
+      "DDoS保护",
+      "备份服务"
+    ],
+    "pricing": {
+      "startingPrice": 5,
+      "currency": "USD",
+      "billingCycle": "monthly",
+      "plans": [
+        {
+          "name": "Nanode",
+          "cpu": 1,
+          "ram": 1,
+          "storage": 25,
+          "bandwidth": 1000,
+          "price": 5
+        },
+        {
+          "name": "Linode 4GB",
+          "cpu": 2,
+          "ram": 4,
+          "storage": 80,
+          "bandwidth": 4000,
+          "price": 20
+        },
+        {
+          "name": "Linode 8GB",
+          "cpu": 4,
+          "ram": 8,
+          "storage": 160,
+          "bandwidth": 5000,
+          "price": 40
+        }
+      ]
+    },
+    "datacenters": [
+      "亚特兰大",
+      "达拉斯",
+      "法兰克福",
+      "伦敦",
+      "洛杉矶",
+      "孟买",
+      "纽瓦克",
+      "新加坡",
+      "悉尼",
+      "东京",
+      "多伦多"
+    ],
+    "pros": [
+      "稳定可靠的性能",
+      "透明的定价",
+      "优秀的网络连接",
+      "老牌服务商，经验丰富",
+      "强大的API"
+    ],
+    "cons": [
+      "控制面板不如某些竞争对手直观",
+      "高级功能学习曲线较陡",
+      "客户支持有时响应较慢",
+      "中国大陆访问速度不稳定"
+    ],
+    "ratings": {
+      "overall": 4.5,
+      "performance": 4.7,
+      "reliability": 4.8,
+      "support": 4.2,
+      "pricing": 4.5,
+      "easeOfUse": 4.0
+    },
+    "website": "https://www.linode.com",
+    "founded": 2003,
+    "headquarters": "美国，宾夕法尼亚州",
+    "paymentMethods": ["信用卡", "PayPal", "比特币"],
+    "operatingSystems": ["Ubuntu", "Debian", "CentOS", "Arch", "Gentoo", "openSUSE"],
+    "specialOffers": "首月50%折扣",
+    "targetAudience": ["开发者", "系统管理员", "小型企业", "中型企业"],
+    "popularUses": ["Web托管", "应用部署", "开发环境", "游戏服务器"]
+  },
+  {
+    "id": 4,
+    "name": "阿里云",
+    "logo": "/images/providers/aliyun.png",
+    "description": "阿里云是中国领先的云计算服务提供商，提供弹性计算、数据库、存储和内容分发网络等全面的云服务。它在中国拥有多个数据中心，为中国和全球客户提供服务。",
+    "features": [
+      "弹性计算服务",
+      "全球分布式云网络",
+      "安全防护",
+      "大数据处理能力",
+      "人工智能平台",
+      "企业级SLA保障"
+    ],
+    "pricing": {
+      "startingPrice": 59,
+      "currency": "CNY",
+      "billingCycle": "monthly",
+      "plans": [
+        {
+          "name": "入门级",
+          "cpu": 1,
+          "ram": 2,
+          "storage": 40,
+          "bandwidth": 1000,
+          "price": 59
+        },
+        {
+          "name": "基础级",
+          "cpu": 2,
+          "ram": 4,
+          "storage": 80,
+          "bandwidth": 2000,
+          "price": 115
+        },
+        {
+          "name": "企业级",
+          "cpu": 4,
+          "ram": 8,
+          "storage": 200,
+          "bandwidth": 5000,
+          "price": 230
+        }
+      ]
+    },
+    "datacenters": [
+      "北京",
+      "上海",
+      "深圳",
+      "杭州",
+      "香港",
+      "新加坡",
+      "悉尼",
+      "东京",
+      "硅谷",
+      "弗吉尼亚",
+      "法兰克福",
+      "伦敦",
+      "迪拜"
+    ],
+    "pros": [
+      "中国大陆访问速度快",
+      "完整的云生态系统",
+      "强大的安全防护",
+      "本地化支持和服务",
+      "适合中国市场的应用"
+    ],
+    "cons": [
+      "国际访问可能较慢",
+      "需要实名认证",
+      "部分服务需要备案",
+      "英文文档相对较少",
+      "价格相对较高"
+    ],
+    "ratings": {
+      "overall": 4.4,
+      "performance": 4.5,
+      "reliability": 4.6,
+      "support": 4.3,
+      "pricing": 4.0,
+      "easeOfUse": 4.2
+    },
+    "website": "https://www.aliyun.com",
+    "founded": 2009,
+    "headquarters": "中国，杭州",
+    "paymentMethods": ["支付宝", "微信支付", "银联", "信用卡"],
+    "operatingSystems": ["CentOS", "Ubuntu", "Debian", "Windows Server", "SUSE", "Alibaba Cloud Linux"],
+    "specialOffers": "新人特惠，云服务器低至102元/年",
+    "targetAudience": ["中国企业", "跨国公司", "开发者", "电商平台"],
+    "popularUses": ["网站托管", "移动应用后端", "大数据分析", "企业应用"]
+  },
+  {
+    "id": 5,
+    "name": "腾讯云",
+    "logo": "/images/providers/tencentcloud.png",
+    "description": "腾讯云是腾讯公司旗下的云计算品牌，提供云服务器、云数据库、云存储等服务。它依托腾讯强大的基础设施，为游戏、视频、社交等领域提供专业的云解决方案。",
+    "features": [
+      "高性能云服务器",
+      "游戏云解决方案",
+      "视频云服务",
+      "大数据处理",
+      "人工智能平台",
+      "安全防护"
+    ],
+    "pricing": {
+      "startingPrice": 65,
+      "currency": "CNY",
+      "billingCycle": "monthly",
+      "plans": [
+        {
+          "name": "标准型S5",
+          "cpu": 1,
+          "ram": 2,
+          "storage": 50,
+          "bandwidth": 1000,
+          "price": 65
+        },
+        {
+          "name": "标准型S5",
+          "cpu": 2,
+          "ram": 4,
+          "storage": 100,
+          "bandwidth": 2000,
+          "price": 130
+        },
+        {
+          "name": "标准型S5",
+          "cpu": 4,
+          "ram": 8,
+          "storage": 200,
+          "bandwidth": 3000,
+          "price": 260
+        }
+      ]
+    },
+    "datacenters": [
+      "北京",
+      "上海",
+      "广州",
+      "成都",
+      "重庆",
+      "南京",
+      "香港",
+      "新加坡",
+      "硅谷",
+      "多伦多",
+      "法兰克福",
+      "首尔",
+      "东京",
+      "孟买"
+    ],
+    "pros": [
+      "中国大陆访问速度快",
+      "游戏和视频服务优化",
+      "与腾讯生态系统集成",
+      "安全防护能力强",
+      "本地化支持"
+    ],
+    "cons": [
+      "国际访问可能较慢",
+      "需要实名认证",
+      "部分服务需要备案",
+      "英文支持相对较弱",
+      "价格不是最便宜的"
+    ],
+    "ratings": {
+      "overall": 4.3,
+      "performance": 4.5,
+      "reliability": 4.4,
+      "support": 4.2,
+      "pricing": 4.0,
+      "easeOfUse": 4.1
+    },
+    "website": "https://cloud.tencent.com",
+    "founded": 2013,
+    "headquarters": "中国，深圳",
+    "paymentMethods": ["微信支付", "QQ钱包", "支付宝", "银联", "信用卡"],
+    "operatingSystems": ["CentOS", "Ubuntu", "Debian", "Windows Server", "SUSE", "TencentOS"],
+    "specialOffers": "云服务器首年88元起",
+    "targetAudience": ["游戏开发商", "视频平台", "中国企业", "开发者"],
+    "popularUses": ["游戏服务器", "视频处理", "网站托管", "微信小程序后端"]
+  },
+  {
+    "id": 6,
+    "name": "AWS",
+    "logo": "/images/providers/aws.png",
+    "description": "Amazon Web Services (AWS) 是全球最全面和广泛采用的云平台，提供超过200种功能齐全的服务。它提供从数据中心到全球各地的基础设施和应用服务，是企业级云计算的领导者。",
+    "features": [
+      "全球基础设施",
+      "超过200种云服务",
+      "高可用性和可靠性",
+      "先进的安全功能",
+      "灵活的定价模式",
+      "企业级支持"
+    ],
+    "pricing": {
+      "startingPrice": 3.5,
+      "currency": "USD",
+      "billingCycle": "monthly",
+      "plans": [
+        {
+          "name": "t3.micro",
+          "cpu": 2,
+          "ram": 1,
+          "storage": 30,
+          "bandwidth": "按量计费",
+          "price": 8.5
+        },
+        {
+          "name": "t3.small",
+          "cpu": 2,
+          "ram": 2,
+          "storage": 30,
+          "bandwidth": "按量计费",
+          "price": 17
+        },
+        {
+          "name": "t3.medium",
+          "cpu": 2,
+          "ram": 4,
+          "storage": 30,
+          "bandwidth": "按量计费",
+          "price": 34
+        }
+      ]
+    },
+    "datacenters": [
+      "北弗吉尼亚",
+      "俄亥俄",
+      "北加利福尼亚",
+      "俄勒冈",
+      "蒙特利尔",
+      "圣保罗",
+      "法兰克福",
+      "爱尔兰",
+      "伦敦",
+      "巴黎",
+      "斯德哥尔摩",
+      "米兰",
+      "巴林",
+      "开普敦",
+      "香港",
+      "孟买",
+      "首尔",
+      "新加坡",
+      "悉尼",
+      "东京",
+      "大阪",
+      "雅加达",
+      "北京"
+    ],
+    "pros": [
+      "最全面的云服务产品",
+      "全球基础设施覆盖广",
+      "高可靠性和可扩展性",
+      "强大的企业级功能",
+      "丰富的第三方集成"
+    ],
+    "cons": [
+      "定价结构复杂",
+      "初学者学习曲线陡峭",
+      "成本管理需要专业知识",
+      "中国大陆访问需要ICP备案",
+      "客户支持高级计划价格昂贵"
+    ],
+    "ratings": {
+      "overall": 4.7,
+      "performance": 4.8,
+      "reliability": 4.9,
+      "support": 4.5,
+      "pricing": 4.0,
+      "easeOfUse": 3.8
+    },
+    "website": "https://aws.amazon.com",
+    "founded": 2006,
+    "headquarters": "美国，西雅图",
+    "paymentMethods": ["信用卡", "银行转账", "发票支付"],
+    "operatingSystems": ["Amazon Linux", "Ubuntu", "CentOS", "Red Hat", "Windows Server", "SUSE"],
+    "specialOffers": "AWS免费套餐，包括12个月的免费服务",
+    "targetAudience": ["企业", "初创公司", "政府机构", "教育机构", "非营利组织"],
+    "popularUses": ["企业应用", "大数据分析", "机器学习", "物联网", "无服务器应用"]
+  },
+  {
+    "id": 7,
+    "name": "Google Cloud",
+    "logo": "/images/providers/googlecloud.png",
+    "description": "Google Cloud Platform (GCP) 是由Google提供的云计算服务套件，运行在Google用于终端用户产品的相同基础设施上。它提供计算、存储、网络、大数据、机器学习等服务。",
+    "features": [
+      "全球网络基础设施",
+      "数据分析和机器学习",
+      "容器化服务",
+      "无服务器计算",
+      "安全和身份管理",
+      "开发者工具"
+    ],
+    "pricing": {
+      "startingPrice": 5,
+      "currency": "USD",
+      "billingCycle": "monthly",
+      "plans": [
+        {
+          "name": "e2-micro",
+          "cpu": 2,
+          "ram": 1,
+          "storage": 30,
+          "bandwidth": "按量计费",
+          "price": 8
+        },
+        {
+          "name": "e2-small",
+          "cpu": 2,
+          "ram": 2,
+          "storage": 30,
+          "bandwidth": "按量计费",
+          "price": 14
+        },
+        {
+          "name": "e2-medium",
+          "cpu": 2,
+          "ram": 4,
+          "storage": 30,
+          "bandwidth": "按量计费",
+          "price": 27
+        }
+      ]
+    },
+    "datacenters": [
+      "爱荷华",
+      "俄勒冈",
+      "洛杉矶",
+      "蒙特利尔",
+      "圣保罗",
+      "比利时",
+      "芬兰",
+      "法兰克福",
+      "伦敦",
+      "荷兰",
+      "苏黎世",
+      "香港",
+      "雅加达",
+      "孟买",
+      "首尔",
+      "新加坡",
+      "台湾",
+      "东京",
+      "悉尼",
+      "墨尔本"
+    ],
+    "pros": [
+      "强大的数据分析和机器学习能力",
+      "全球网络性能优秀",
+      "与Google服务无缝集成",
+      "先进的容器技术",
+      "按秒计费"
+    ],
+    "cons": [
+      "服务种类少于AWS",
+      "企业采用率相对较低",
+      "某些地区覆盖有限",
+      "中国大陆访问受限",
+      "文档有时不够详细"
+    ],
+    "ratings": {
+      "overall": 4.5,
+      "performance": 4.7,
+      "reliability": 4.6,
+      "support": 4.3,
+      "pricing": 4.4,
+      "easeOfUse": 4.2
+    },
+    "website": "https://cloud.google.com",
+    "founded": 2008,
+    "headquarters": "美国，加利福尼亚",
+    "paymentMethods": ["信用卡", "银行转账", "发票支付"],
+    "operatingSystems": ["Debian", "CentOS", "Ubuntu", "Red Hat", "Windows Server", "SUSE"],
+    "specialOffers": "新用户赠送300美元赠金",
+    "targetAudience": ["企业", "开发者", "数据科学家", "初创公司"],
+    "popularUses": ["大数据分析", "机器学习", "容器化应用", "全球内容分发"]
+  },
+  {
+    "id": 8,
+    "name": "Hostinger",
+    "logo": "/images/providers/hostinger.png",
+    "description": "Hostinger是一家全球性的网络托管提供商，以其经济实惠的价格和用户友好的服务而闻名。除了共享主机，它还提供VPS、云主机和WordPress托管服务。",
+    "features": [
+      "易于使用的控制面板",
+      "99.9%正常运行时间保证",
+      "全天候客户支持",
+      "免费域名",
+      "免费SSL证书",
+      "网站构建工具"
+    ],
+    "pricing": {
+      "startingPrice": 3.95,
+      "currency": "USD",
+      "billingCycle": "monthly",
+      "plans": [
+        {
+          "name": "VPS 1",
+          "cpu": 1,
+          "ram": 1,
+          "storage": 20,
+          "bandwidth": 1000,
+          "price": 3.95
+        },
+        {
+          "name": "VPS 2",
+          "cpu": 2,
+          "ram": 2,
+          "storage": 40,
+          "bandwidth": 2000,
+          "price": 8.95
+        },
+        {
+          "name": "VPS 4",
+          "cpu": 4,
+          "ram": 4,
+          "storage": 80,
+          "bandwidth": 4000,
+          "price": 15.95
+        }
+      ]
+    },
+    "datacenters": [
+      "美国",
+      "英国",
+      "荷兰",
+      "立陶宛",
+      "新加坡",
+      "巴西",
+      "印度尼西亚"
+    ],
+    "pros": [
+      "价格非常实惠",
+      "用户友好的界面",
+      "全天候客户支持",
+      "免费域名和SSL",
+      "多语言支持"
+    ],
+    "cons": [
+      "最低价格需要长期承诺",
+      "数据中心选择有限",
+      "高级功能较少",
+      "续费价格较高",
+      "中国大陆访问速度不稳定"
+    ],
+    "ratings": {
+      "overall": 4.3,
+      "performance": 4.2,
+      "reliability": 4.3,
+      "support": 4.5,
+      "pricing": 4.8,
+      "easeOfUse": 4.6
+    },
+    "website": "https://www.hostinger.com",
+    "founded": 2004,
+    "headquarters": "立陶宛，考纳斯",
+    "paymentMethods": ["信用卡", "PayPal", "比特币", "Google Pay"],
+    "operatingSystems": ["CentOS", "Ubuntu", "Debian", "Fedora", "Suse"],
+    "specialOffers": "VPS主机75%折扣",
+    "targetAudience": ["个人网站", "小型企业", "博客", "初创公司"],
+    "popularUses": ["个人网站", "小型企业网站", "博客", "电子商务"]
+  },
+  {
+    "id": 9,
+    "name": "Bandwagon Host",
+    "logo": "/images/providers/bandwagonhost.png",
+    "description": "Bandwagon Host（搬瓦工）是一家提供低价VPS服务的美国主机提供商，在中国用户中非常受欢迎。它以其CN2 GIA线路和对中国用户的友好支持而闻名。",
+    "features": [
+      "CN2 GIA线路",
+      "KVM虚拟化",
+      "SSD存储",
+      "支持支付宝",
+      "一键安装系统",
+      "多个数据中心可选"
+    ],
+    "pricing": {
+      "startingPrice": 49.99,
+      "currency": "USD",
+      "billingCycle": "yearly",
+      "plans": [
+        {
+          "name": "SPECIAL 10G KVM",
+          "cpu": 1,
+          "ram": 0.5,
+          "storage": 10,
+          "bandwidth": 500,
+          "price": 49.99
+        },
+        {
+          "name": "SPECIAL 20G KVM",
+          "cpu": 1,
+          "ram": 1,
+          "storage": 20,
+          "bandwidth": 1000,
+          "price": 99.99
+        },
+        {
+          "name": "SPECIAL 40G KVM",
+          "cpu": 2,
+          "ram": 2,
+          "storage": 40,
+          "bandwidth": 2000,
+          "price": 199.99
+        }
+      ]
+    },
+    "datacenters": [
+      "洛杉矶 (DC3 CN2)",
+      "洛杉矶 (DC8 ZNET)",
+      "洛杉矶 (DC2 QNET)",
+      "洛杉矶 (DC4 MCOM)",
+      "洛杉矶 (DC9 CN2 GIA)",
+      "日本",
+      "荷兰",
+      "加拿大"
+    ],
+    "pros": [
+      "CN2/CN2 GIA线路对中国用户友好",
+      "价格实惠",
+      "支持支付宝付款",
+      "KVM虚拟化",
+      "可以更换IP和数据中心"
+    ],
+      "cons": [
+        "库存经常不足",
+        "客户支持响应较慢",
+        "控制面板功能有限",
+        "带宽较少",
+        "不提供退款"
+      ],
+      "ratings": {
+        "overall": 4.2,
+        "performance": 4.3,
+        "reliability": 4.1,
+        "support": 3.8,
+        "pricing": 4.7,
+        "easeOfUse": 4.0
+      },
+      "website": "https://bandwagonhost.com",
+      "founded": 2010,
+      "headquarters": "美国，加利福尼亚",
+      "paymentMethods": ["支付宝", "信用卡", "PayPal", "加密货币"],
+      "operatingSystems": ["CentOS", "Ubuntu", "Debian", "Fedora", "Windows"],
+      "specialOffers": "CN2 GIA线路VPS低至49.99美元/年",
+      "targetAudience": ["个人用户", "中国用户", "开发者", "小型网站"],
+      "popularUses": ["科学上网", "个人网站", "博客", "开发测试"]
+    },
+    {
+      "id": 10,
+      "name": "OVH",
+      "logo": "/images/providers/ovh.png",
+      "description": "OVH是欧洲最大的云计算提供商，总部位于法国。它提供VPS、专用服务器、云服务和网络解决方案，以其高性价比和强大的网络基础设施而闻名。",
+      "features": [
+        "反DDoS保护",
+        "无限流量",
+        "高性能网络",
+        "全球数据中心",
+        "vRack私有网络",
+        "快速部署"
+      ],
+      "pricing": {
+        "startingPrice": 3.5,
+        "currency": "EUR",
+        "billingCycle": "monthly",
+        "plans": [
+          {
+            "name": "Value",
+            "cpu": 1,
+            "ram": 2,
+            "storage": 20,
+            "bandwidth": "无限",
+            "price": 3.5
+          },
+          {
+            "name": "Essential",
+            "cpu": 2,
+            "ram": 4,
+            "storage": 40,
+            "bandwidth": "无限",
+            "price": 7
+          },
+          {
+            "name": "Comfort",
+            "cpu": 4,
+            "ram": 8,
+            "storage": 80,
+            "bandwidth": "无限",
+            "price": 13.5
+          }
+        ]
+      },
+      "datacenters": [
+        "法国",
+        "德国",
+        "波兰",
+        "英国",
+        "加拿大",
+        "美国",
+        "澳大利亚",
+        "新加坡"
+      ],
+      "pros": [
+        "价格实惠",
+        "无限流量",
+        "强大的DDoS保护",
+        "欧洲地区网络性能优秀",
+        "可靠的基础设施"
+      ],
+      "cons": [
+        "客户支持响应时间较长",
+        "控制面板不够直观",
+        "中国大陆访问速度较慢",
+        "文档主要以法语和英语为主",
+        "备份功能需额外付费"
+      ],
+      "ratings": {
+        "overall": 4.3,
+        "performance": 4.5,
+        "reliability": 4.4,
+        "support": 3.9,
+        "pricing": 4.6,
+        "easeOfUse": 4.0
+      },
+      "website": "https://www.ovhcloud.com",
+      "founded": 1999,
+      "headquarters": "法国，鲁贝",
+      "paymentMethods": ["信用卡", "PayPal", "银行转账"],
+      "operatingSystems": ["Ubuntu", "Debian", "CentOS", "Fedora", "Windows"],
+      "specialOffers": "VPS云服务器低至3.5欧元/月",
+      "targetAudience": ["欧洲企业", "开发者", "中小型企业", "游戏服务器"],
+      "popularUses": ["网站托管", "游戏服务器", "开发环境", "数据备份"]
+    }
+  ]

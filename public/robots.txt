@@ -1,0 +1,9 @@
+# robots.txt for VPS推荐网站
+User-agent: *
+Allow: /
+
+# 禁止爬取管理后台
+Disallow: /admin/
+
+# 站点地图
+Sitemap: https://vps-recommendation.com/sitemap.xml

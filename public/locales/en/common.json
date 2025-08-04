@@ -1,0 +1,142 @@
+{
+  "site": {
+    "title": "VPS Recommendation",
+    "description": "Professional VPS review, comparison and recommendation platform",
+    "keywords": "VPS,Virtual Private Server,VPS recommendation,VPS comparison,VPS review"
+  },
+  "nav": {
+    "home": "Home",
+    "comparison": "VPS Comparison",
+    "deals": "Deals",
+    "articles": "Articles",
+    "about": "About Us",
+    "contact": "Contact"
+  },
+  "home": {
+    "hero": {
+      "title": "Find the Best VPS for Your Needs",
+      "subtitle": "Professional VPS review, comparison and recommendation platform",
+      "cta": "Start Comparing"
+    },
+    "features": {
+      "title": "Why Choose Us",
+      "comparison": {
+        "title": "Comprehensive Comparison",
+        "description": "Multi-dimensional comparison of performance, price and reliability of major VPS providers"
+      },
+      "reviews": {
+        "title": "Professional Reviews",
+        "description": "In-depth reviews and analysis based on actual user experience"
+      },
+      "deals": {
+        "title": "Exclusive Deals",
+        "description": "Collect and verify the latest deals from major VPS providers"
+      }
+    },
+    "topProviders": {
+      "title": "Top VPS Providers",
+      "viewAll": "View All"
+    },
+    "latestDeals": {
+      "title": "Latest Deals",
+      "viewAll": "View All Deals"
+    },
+    "latestArticles": {
+      "title": "Latest Articles",
+      "viewAll": "View All Articles"
+    }
+  },
+  "comparison": {
+    "title": "VPS Comparison",
+    "filters": {
+      "title": "Filters",
+      "region": "Region",
+      "price": "Price Range",
+      "cpu": "CPU Cores",
+      "ram": "Memory",
+      "storage": "Storage",
+      "apply": "Apply Filters",
+      "reset": "Reset"
+    },
+    "table": {
+      "provider": "Provider",
+      "plan": "Plan",
+      "price": "Price",
+      "cpu": "CPU",
+      "ram": "Memory",
+      "storage": "Storage",
+      "bandwidth": "Bandwidth",
+      "rating": "Rating",
+      "details": "Details"
+    }
+  },
+  "provider": {
+    "overview": "Overview",
+    "plans": "Plans & Pricing",
+    "datacenters": "Data Centers",
+    "reviews": "User Reviews",
+    "pros": "Pros",
+    "cons": "Cons",
+    "specifications": "Specifications",
+    "performance": "Performance Tests",
+    "reliability": "Reliability",
+    "support": "Customer Support",
+    "pricing": {
+      "title": "Pricing",
+      "monthly": "Monthly",
+      "quarterly": "Quarterly",
+      "annually": "Annually",
+      "startingAt": "Starting at",
+      "viewPlans": "View Plans"
+    }
+  },
+  "deals": {
+    "title": "VPS Deals",
+    "filters": {
+      "all": "All",
+      "flash": "Flash Sales",
+      "recurring": "Recurring Deals",
+      "new": "New User Exclusive"
+    },
+    "card": {
+      "expires": "Expires",
+      "getOffer": "Get Offer"
+    }
+  },
+  "articles": {
+    "title": "Articles & Tutorials",
+    "categories": {
+      "all": "All",
+      "tutorials": "Tutorials",
+      "reviews": "Reviews",
+      "comparisons": "Comparisons",
+      "guides": "Guides"
+    },
+    "readMore": "Read More"
+  },
+  "footer": {
+    "about": "About Us",
+    "contact": "Contact Us",
+    "privacy": "Privacy Policy",
+    "terms": "Terms of Service",
+    "copyright": "© 2023 VPS Recommendation. All rights reserved."
+  },
+  "common": {
+    "loading": "Loading...",
+    "error": "Error",
+    "retry": "Retry",
+    "search": "Search",
+    "more": "More",
+    "less": "Less",
+    "back": "Back",
+    "next": "Next",
+    "previous": "Previous",
+    "submit": "Submit",
+    "cancel": "Cancel",
+    "save": "Save",
+    "delete": "Delete",
+    "edit": "Edit",
+    "view": "View",
+    "close": "Close"
+  }
+}

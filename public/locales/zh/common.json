@@ -1,0 +1,142 @@
+{
+  "site": {
+    "title": "VPS推荐网",
+    "description": "专业的VPS评测、比较和推荐平台",
+    "keywords": "VPS,虚拟专用服务器,VPS推荐,VPS比较,VPS评测"
+  },
+  "nav": {
+    "home": "首页",
+    "comparison": "VPS比较",
+    "deals": "优惠活动",
+    "articles": "文章教程",
+    "about": "关于我们",
+    "contact": "联系我们"
+  },
+  "home": {
+    "hero": {
+      "title": "找到最适合您的VPS服务器",
+      "subtitle": "专业的VPS评测、比较和推荐平台",
+      "cta": "开始比较"
+    },
+    "features": {
+      "title": "为什么选择我们",
+      "comparison": {
+        "title": "全面比较",
+        "description": "多维度比较各大VPS提供商的性能、价格和可靠性"
+      },
+      "reviews": {
+        "title": "专业评测",
+        "description": "基于实际使用体验的深度评测和分析"
+      },
+      "deals": {
+        "title": "独家优惠",
+        "description": "收集并验证各大VPS提供商的最新优惠信息"
+      }
+    },
+    "topProviders": {
+      "title": "热门VPS提供商",
+      "viewAll": "查看全部"
+    },
+    "latestDeals": {
+      "title": "最新优惠",
+      "viewAll": "查看全部优惠"
+    },
+    "latestArticles": {
+      "title": "最新文章",
+      "viewAll": "查看全部文章"
+    }
+  },
+  "comparison": {
+    "title": "VPS比较",
+    "filters": {
+      "title": "筛选条件",
+      "region": "地区",
+      "price": "价格范围",
+      "cpu": "CPU核心",
+      "ram": "内存",
+      "storage": "存储空间",
+      "apply": "应用筛选",
+      "reset": "重置"
+    },
+    "table": {
+      "provider": "提供商",
+      "plan": "套餐",
+      "price": "价格",
+      "cpu": "CPU",
+      "ram": "内存",
+      "storage": "存储",
+      "bandwidth": "带宽",
+      "rating": "评分",
+      "details": "详情"
+    }
+  },
+  "provider": {
+    "overview": "概览",
+    "plans": "套餐与价格",
+    "datacenters": "数据中心",
+    "reviews": "用户评价",
+    "pros": "优点",
+    "cons": "缺点",
+    "specifications": "规格参数",
+    "performance": "性能测试",
+    "reliability": "可靠性",
+    "support": "客户支持",
+    "pricing": {
+      "title": "价格",
+      "monthly": "月付",
+      "quarterly": "季付",
+      "annually": "年付",
+      "startingAt": "起价",
+      "viewPlans": "查看套餐"
+    }
+  },
+  "deals": {
+    "title": "VPS优惠活动",
+    "filters": {
+      "all": "全部",
+      "flash": "限时特惠",
+      "recurring": "长期优惠",
+      "new": "新用户专享"
+    },
+    "card": {
+      "expires": "过期时间",
+      "getOffer": "获取优惠"
+    }
+  },
+  "articles": {
+    "title": "文章教程",
+    "categories": {
+      "all": "全部",
+      "tutorials": "教程",
+      "reviews": "评测",
+      "comparisons": "对比",
+      "guides": "指南"
+    },
+    "readMore": "阅读更多"
+  },
+  "footer": {
+    "about": "关于我们",
+    "contact": "联系我们",
+    "privacy": "隐私政策",
+    "terms": "使用条款",
+    "copyright": "© 2023 VPS推荐网. 保留所有权利."
+  },
+  "common": {
+    "loading": "加载中...",
+    "error": "出错了",
+    "retry": "重试",
+    "search": "搜索",
+    "more": "更多",
+    "less": "收起",
+    "back": "返回",
+    "next": "下一步",
+    "previous": "上一步",
+    "submit": "提交",
+    "cancel": "取消",
+    "save": "保存",
+    "delete": "删除",
+    "edit": "编辑",
+    "view": "查看",
+    "close": "关闭"
+  }
+}
