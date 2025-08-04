@@ -1,0 +1,8 @@
+{
+  "version": 2,
+  "routes": [
+    { "src": "/", "dest": "/index.html" },
+    { "src": "/test", "dest": "/public/test.html" },
+    { "src": "/(.*)", "dest": "/$1" }
+  ]
+}
